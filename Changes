@@ -1,3 +1,12 @@
+1.42_001 -- 2015/06/23 18:11:49
+	[CHANGES]
+	 * Split out Scalar::Util + Sub::Util into their own distribution,
+	   separate from List::Util
+
+#####
+
+Previous history of Scalar-List-Utils distribution:
+
 1.42 -- 2015/04/32 01:25:55
 	[CHANGES]
 	 * Added List::Util::unpairs() - the inverse of pairs()
