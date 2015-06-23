@@ -25,6 +25,8 @@ XSLoader::load('Scalar::Util', $XS_VERSION);
 
 our @EXPORT_FAIL;
 
+require Sub::Util;
+
 unless (defined &weaken) {
   push @EXPORT_FAIL, qw(weaken);
 }
