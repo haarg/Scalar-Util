@@ -1,3 +1,7 @@
+1.42_002 -- 2014/06/23 19:13:12
+	[CHANGES]
+	 * Move Sub::Util out to its own distribution as well
+
 1.42_001 -- 2015/06/23 18:11:49
 	[CHANGES]
 	 * Split out Scalar::Util + Sub::Util into their own distribution,
