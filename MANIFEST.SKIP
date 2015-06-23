@@ -6,7 +6,7 @@ cover_db
 ^Makefile$
 ^Makefile.old$
 \.bak$
-^Scalar-List-Utils
+^Scalar-Util
 \.bs$
 \.[oc]$
 ^MYMETA\.
