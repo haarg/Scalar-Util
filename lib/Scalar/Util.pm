@@ -30,7 +30,7 @@ unless (defined &weaken) {
   push @EXPORT_FAIL, qw(weaken);
 }
 unless (defined &isweak) {
-  push @EXPORT_FAIL, qw(isweak isvstring);
+  push @EXPORT_FAIL, qw(isweak);
 }
 unless (defined &isvstring) {
   push @EXPORT_FAIL, qw(isvstring);
@@ -48,13 +48,6 @@ sub export_fail {
   }
 
   @_;
-}
-
-# set_prototype has been moved to Sub::Util with a different interface
-sub set_prototype(&$)
-{
-  my ( $code, $proto ) = @_;
-  return Sub::Util::set_prototype( $proto, $code );
 }
 
 1;
