@@ -18,10 +18,11 @@ our @EXPORT_OK = qw(
   tainted
 );
 our $VERSION    = "1.45";
+our $XS_VERSION = $VERSION;
 $VERSION   = eval $VERSION;
 
-require List::Util; # List::Util loads the XS
-List::Util->VERSION( $VERSION ); # Ensure we got the right XS version (RT#100863)
+require XSLoader;
+XSLoader::load(__PACKAGE__, $XS_VERSION);
 
 our @EXPORT_FAIL;
 

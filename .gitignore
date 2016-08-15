@@ -17,5 +17,5 @@
 *.c
 .*.swp
 
-/Scalar-List-Utils-*/
-/Scalar-List-Utils-*.tar.gz
+/Scalar-Util-*/
+/Scalar-Util-*.tar.gz
